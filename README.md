@@ -14,6 +14,6 @@ by tianhang
 - Concurrency VS Parallelism
 - Critical Section(临界区)
 - Blocking VS Non-Blocking
-- Deadlock , Starvation and Livelock
+- Deadlock(锁) , Starvation(饥饿) and Livelock(死锁)
 
 #### 3. Two Laws about parallelism :
