@@ -11,6 +11,11 @@ by tianhang
   
 #### 2. Some important concepts :
 - Synchronous VS Asynchronous
+  - Synchronous:
+    If an API call is synchronous, it means that code execution will block (or wait) for the API call to return before continuing. This means that until a response is returned by the API, your application will not execute any further, which could be perceived by the user as latency or performance lag in your app.
+  - Asynchronous:
+    Asynchronous calls do not block (or wait) for the API call to return from the server. Execution continues on in your program, and when the call returns from the server, a "callback" function is executed.
+
 - Concurrency VS Parallelism
 - Critical Section(临界区)
 - Blocking VS Non-Blocking
