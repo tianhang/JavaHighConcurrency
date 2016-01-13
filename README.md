@@ -18,8 +18,9 @@ by tianhang
 - The level of parallelism
   - Blocking
   - Non-Blocking
-    - 1
-    - 2
+    - Obstruction-Free(无障碍)
+    - Lock-Free(无锁)
+    - Wait-Free(无等待)
 
 #### 3. Two Laws about parallelism 
 - Amdahl Law
