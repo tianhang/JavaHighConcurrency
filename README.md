@@ -17,6 +17,9 @@ by tianhang
     Asynchronous calls do not block (or wait) for the API call to return from the server. Execution continues on in your program, and when the call returns from the server, a "callback" function is executed.
 
 - Concurrency VS Parallelism
+  - Parallelism : This requires hardware with multiple processing units .(并行需要多核处理器)
+  - Concurrency can be implemented and is used a lot on single processing units, nonetheless it may benefit from multiple processing units with respect to speed. 
+  
 - Critical Section(临界区)
 - Blocking VS Non-Blocking
 - Deadlock(锁) , Starvation(饥饿) and Livelock(死锁)
