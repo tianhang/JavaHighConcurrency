@@ -23,7 +23,9 @@ by tianhang
 - Critical Section(临界区)
   - In concurrent programming, a critical section is a part of a multi-process program that may not be concurrently executed by more than one of the program's processes. In other words, it is a piece of a program that requires mutual exclusion of access. Typically, the critical section accesses a shared resource, such as a data structure, a peripheral device, or a network connection, that does not allow multiple concurrent accesses.
   
-- Blocking VS Non-Blocking
+- Blocking VS Non-Blocking（usually，they are used to describe the interaction among multiple threads线程间相互影响）
+  - Blocking : Do not allow multiple threads to  access the critical section simultaneously 
+  - Non-Blocking : Allow multiple threads to access the critical section simultaneously.
 - Deadlock(锁) , Starvation(饥饿) and Livelock(死锁)
 - The level of parallelism
   - Blocking
