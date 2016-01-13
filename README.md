@@ -15,4 +15,5 @@ by tianhang
 - Critical Section(临界区)
 - Blocking VS Non-Blocking
 - Deadlock , Starvation and Livelock
+
 #### 3. Two Laws about parallelism :
