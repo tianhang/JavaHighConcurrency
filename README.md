@@ -15,5 +15,12 @@ by tianhang
 - Critical Section(临界区)
 - Blocking VS Non-Blocking
 - Deadlock(锁) , Starvation(饥饿) and Livelock(死锁)
+- The level of parallelism
+  - Blocking
+  - Non-Blocking
+    - 1
+    - 2
 
-#### 3. Two Laws about parallelism :
+#### 3. Two Laws about parallelism 
+- Amdahl Law
+- Gustafson Law
