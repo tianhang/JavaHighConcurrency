@@ -26,6 +26,7 @@ by tianhang
 - Blocking VS Non-Blocking（usually，they are used to describe the interaction among multiple threads线程间相互影响）
   - Blocking : Do not allow multiple threads to  access the critical section simultaneously 
   - Non-Blocking : Allow multiple threads to access the critical section simultaneously.
+
 - Deadlock(锁) , Starvation(饥饿) and Livelock(死锁)
 - The level of parallelism
   - Blocking
