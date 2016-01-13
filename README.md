@@ -10,7 +10,7 @@ by tianhang
   - Simplify the task scheduling .
   
 #### 2. Some important concepts :
-- Synchronous VS Asynchronous
+- Synchronous VS Asynchronous（mainly aimed at calling method 主要针对方法调用）
   - Synchronous:
     If an API call is synchronous, it means that code execution will block (or wait) for the API call to return before continuing. This means that until a response is returned by the API, your application will not execute any further, which could be perceived by the user as latency or performance lag in your app.
   - Asynchronous:
